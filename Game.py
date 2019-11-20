@@ -27,6 +27,8 @@ class Game:
                 touch_move_on = input()
                 if touch_move_on == ("touch"):
                     print("you get burned to ashes due to it's inmense power")
+                    print('fdecr3grh5')
+                    print(player.HP)
 
                 if touch_move_on == ("move on"):
                     print("you decide to keep walking and find yourself facing a bigger section of the cavern. ""There is a rope bridge and a path leading down a canyon")
