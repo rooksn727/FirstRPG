@@ -143,6 +143,17 @@ class Game:
                                 else:
                                     print("You do not move from the cave. You stay there and sit, admiring the  benevolence of it. This is all you could ever want.")
                                     print("How do you procede?")
+                                    eh2= input()
+                                    if eh2 == ("Is it tho?"):
+                                        print("STOP QUESTIONING THE CAVE! IT IS ALL I NEED")
+                                        print("Thats it I'm done")
+                                        Game.death()
+                                    else:
+                                        print("You keep still in the cave for longer,never moving, just admiring.")
+                                        print("This")
+                                        time.sleep(1)
+                                        print("This is perfection")
+                                        Game.death()
 
                             elif  run_away_nothing == ("nothing"):
                                 print("gay  pt2")
