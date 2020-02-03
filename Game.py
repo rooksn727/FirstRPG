@@ -2,6 +2,7 @@ import time
 from threading import Thread
 
 import Enemy
+import Me
 from Me import *
 from Enemy import *
 class Game:
@@ -122,11 +123,12 @@ class Game:
                                                        .|....'                       .|....'                     
                                                                                                                  '''
                             print(x)
-                            print("You wake up looking upwards, head on the ground,slowlybeing dragged. You look and see a shadowy figure dragging you to a bright light.")
+                            time.sleep(1)
+                            print("You wake up looking upwards, head on the ground,slowly  being dragged. You look and see a shadowy figure dragging you to a bright light.")
                             print("How do you procede? (run away/nothing")
                             run_away_nothing = input()
                             if run_away_nothing == ("run away"):
-                                print("you kick the figure and scramble away running into the darkness far away from the light.You hear the figures footsteps but keep runnign until you lose  the figure.")
+                                print("you kick the figure and scramble away running into the darkness far away from the light.You hear the figures footsteps but keep running until you lose the figure.")
                                 print("After you  are sure you are not being tailed then you walk and find yourself a nice cavern and decide to camp there. It seems cozy enough.")
                                 time.sleep(2)
                                 print("Lots of time passes but you are unsure of how much because there is no sun to tell you of the days or a clock for the hours.")
@@ -158,21 +160,40 @@ class Game:
                             elif  run_away_nothing == ("nothing"):
                                 print("You lie still, letting the figure drag you to where ever it is taking you.")
                                 print("It's quite a bumpy ride, the figure keeps dragging you over rocks which hurt your head and make the ride quite unpleasant.")
-                                print("Eventually it drags you over a small ledge adn you lose conciousness")
+                                print("Eventually it drags you over a small ledge and you lose conciousness")
                                 time.sleep(2)
                                 print("You wake up in a metal cage, It resembles those in which you would keep a parakeet except it's bigger and it is housing you a human.")
                                 print("There is a huge bonfire but no one is around. You try to pry the cage open but it is too heavy and the lock is heavy")
-                                time.sleep(1)
+                                time.sleep(4)
                                 print("Figures start to emerge, you noticed only a couple but there could be easily be a dozen or two. The creatures have a scale like skin, lizard people  but with milky white eyes")
                                 print("They start chanting an ominous language, which started as a whisper but before you know it they're roaring it at a deafining volume.")
-                                time.sleep(1)
+                                time.sleep(4)
                                 print("A taller figure, emerges and the chanting stops. The figure appears to be the leader.")
                                 print("The figure approaches you and starts to hiss but soon realizes you do not understand, it hisses at one of the figures wearing a red garb")
-                                time.sleep(1)
+                                time.sleep(4)
                                 print("The red garbed reptilian comes forth and starts to speak to you")
-                                print("Hellooo therrrreeee humaaahhn, we've been expecting you")
+                                print("-Hellooo therrrreeee humaaahhn, we've been exxxxpecting you")
                                 print("The leader reptilian,I'm going to call him bob,hisses at the red garbed reptilian, which im going to call dave.")
-                                time.sleep(1)
+                                time.sleep(4)
+                                print("Dave says: I am Dyroman, the high priest of the Nytseny, my people. I am sure you have heard of us ")
+                                print("-We are planning to ssssacrificssse you to the allmighty cave god Ghynera. He issss also known as the god of the underworld and cavessss.")
+                                time.sleep(4)
+                                print("-Take of your clothes so we can better inspect what we are going to deal with")
+                                print("How do you procede? (refuse/do it")
+                                refuse_do_it = input()
+                                if refuse_do_it == ("refuse"):
+                                    print("You tell Dave that you refuse and he administers the messafe to Dyroman")
+                                    print("Dyroman starts hissing furiously and puts his claws on his sword")
+                                    time.sleep(3)
+                                    print("Dave then looks at you and says")
+                                    print("-You are ruining the ruitual by refussssing to do sssooo. The high priesssst hassss challengesssss you to a duel. if you beat him, you can earn your freedom")
+                                    print("-However if the highpriessst beatsss you then you will be sssssacrificsssed.")
+                                    time.sleep(3)
+                                    print("-Fighting on behalfff of the High Priessssst is the Champion of the Nytsenty")
+                                    print("Dave opens the cage and hands you a crooked dagger. You take the dagger and step out of the cage.")
+                                    print("The Nytsenty form a ring around you and their Champion. The fight has started.")
+                                    Me.Champion()
+
 
 
 
