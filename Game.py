@@ -2,7 +2,7 @@ import time
 from threading import Thread
 
 import Enemy
-from Me import Me
+from Me import *
 from Enemy import *
 class Game:
 
@@ -156,7 +156,26 @@ class Game:
                                         Game.death()
 
                             elif  run_away_nothing == ("nothing"):
-                                print("gay  pt2")
+                                print("You lie still, letting the figure drag you to where ever it is taking you.")
+                                print("It's quite a bumpy ride, the figure keeps dragging you over rocks which hurt your head and make the ride quite unpleasant.")
+                                print("Eventually it drags you over a small ledge adn you lose conciousness")
+                                time.sleep(2)
+                                print("You wake up in a metal cage, It resembles those in which you would keep a parakeet except it's bigger and it is housing you a human.")
+                                print("There is a huge bonfire but no one is around. You try to pry the cage open but it is too heavy and the lock is heavy")
+                                time.sleep(1)
+                                print("Figures start to emerge, you noticed only a couple but there could be easily be a dozen or two. The creatures have a scale like skin, lizard people  but with milky white eyes")
+                                print("They start chanting an ominous language, which started as a whisper but before you know it they're roaring it at a deafining volume.")
+                                time.sleep(1)
+                                print("A taller figure, emerges and the chanting stops. The figure appears to be the leader.")
+                                print("The figure approaches you and starts to hiss but soon realizes you do not understand, it hisses at one of the figures wearing a red garb")
+                                time.sleep(1)
+                                print("The red garbed reptilian comes forth and starts to speak to you")
+                                print("Hellooo therrrreeee humaaahhn, we've been expecting you")
+                                print("The leader reptilian,I'm going to call him bob,hisses at the red garbed reptilian, which im going to call dave.")
+                                time.sleep(1)
+
+
+
 
 
                             # function(player, enemy)
