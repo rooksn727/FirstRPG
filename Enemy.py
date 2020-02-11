@@ -1,5 +1,8 @@
 
 from random import randint
+
+import Game
+
 game_running = True
 from Game import *
 def troll():
@@ -16,7 +19,7 @@ def troll():
     while game_running == True:
         new_round = True
         player = {"name": "Nick", "attack": 10, "heal": 15, "health": 100, "evasion_min": 3, "evasion_max": 20}
-        monster = {"name": "Chancho", "attack_min": 10, "attack_max": 17, "health": 100}
+        monster = {"name": "Troll", "attack_min": 10, "attack_max": 17, "health": 100}
 
         print("---" * 7)
         print("What is your name o warrior? Roars the troll")
@@ -75,7 +78,6 @@ def troll():
                 print("The monster has won")
                 new_round = False
                 game_running = False
-                Game.death()
 
 
 

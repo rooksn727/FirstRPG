@@ -1,6 +1,9 @@
 #captain crunch
 
 from random import randint
+
+import Game
+
 game_running = True
 from Game import *
 def Champion():
@@ -77,7 +80,6 @@ def Champion():
                 print("The monster has won")
                 new_round = False
                 game_running = False
-                Game.death()
 
 
 
